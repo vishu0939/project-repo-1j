@@ -15,7 +15,7 @@ users = [
 
 @app.route("/")
 def home():
-    return "User Service is running"
+    return "User Service is running Successfully"
 
 @app.route("/users")
 def get_users():
